@@ -52,6 +52,9 @@ O que é um computador? Ou dispositivo celular? <br />
 Nós só precisamos saber que ele representa e interpreta dados do mundo real, você insere uma informação, ele interpreta, resolve seu problema e retorna uma saída. <br />
 ![image](https://user-images.githubusercontent.com/40611760/185723359-3d215465-07e6-43b3-b15a-634f43a1bffe.png)
 
+Não importa COMO ele resolve o problema. 
+Exemplo: você quer aumentar o volume da TV, você só aperta um botão no controle, não quer saber o que o controle teve que fazer pra aumentar o som da televisão. O controle é a "entrada" de dados e o volume da tv é a "saída".
+
 Como o computador representa dados e informações?<br />
 Binário. <br />
 Com binário ele consegue representar números, cor, som, letras, etc... <br />
