@@ -121,9 +121,9 @@ Tem alguns conceitos que é importante saber
 ![image](https://user-images.githubusercontent.com/40611760/185725617-650e16e7-489a-40ba-8f36-2e0968d255bf.png)
  - Quem "entrega" o HTML é um server. Seu computador pode ser um fácilmente. (Várias IDE's disponibilizam um botão para vc habilitar o server no seu pc)
 - CSS
- - Aplica propriedades/estilo nos elementos
- - Cor, fonte, tamanho
- - Tabela de propriedade e valor
+  - Aplica propriedades/estilo nos elementos
+  - Cor, fonte, tamanho
+  - Tabela de propriedade e valor
 
 Exemplo: HTML
 ```html
@@ -157,8 +157,12 @@ Com HTML, podemos fazer várias coisas, foi inovador, foi inventado em 1989 e a 
  - É uma linguagem de programação
  - Deixa dinamico
 
-
-
-
+Pra que quero deixar minha página HTML dinâmica? <br />
+- Pegar/salvar/atualizar uma informação de um banco de dados e na tela
+- Aplicar alguma lógica pra processar alguma coisa como:
+  - Procurar um nome numa lista
+  - Calcular percentual
+- Aplicar lógica na interface(se uma pessoa tiver online, um botão fique verde)
+- Etc...
 
 
