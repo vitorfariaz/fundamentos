@@ -102,18 +102,63 @@ Tem alguns conceitos que é importante saber
 - Qual a diferença entre  
  - Internet 
  - Browser
- - Search engine(google)
+ - Google(motor de busca)
  - Sites
  - Metafora: imagina que seu carro é o computador
-  - Internet: é o mundo, tudo que se conecta 
-  - Browser: são as estradas, permitem que chegamos de um lugar ao outro
-  - Search engine: é o GPS do seu carro. Ele pesquisa de forma ultra eficiente todas as possíveis rotas
-  - Sites: são as casas
+   - Internet: é o mundo, tudo que se conecta 
+   - Browser: são as estradas, permitem que chegamos de um lugar ao outro
+   - Google: é o GPS do seu carro. Ele pesquisa de forma ultra eficiente todas as possíveis rotas de acordo com onde você "quer ir"
+   - Sites: são as casas
 - Curl: fazendo request http sem o browser
  - Http POST
 
 
 # Frontend
+
+- HTML
+ - Não é uma linguagem de programação!
+ - É uma estrutura de dados
+![image](https://user-images.githubusercontent.com/40611760/185725617-650e16e7-489a-40ba-8f36-2e0968d255bf.png)
+ - Quem "entrega" o HTML é um server. Seu computador pode ser um fácilmente. (Várias IDE's disponibilizam um botão para vc habilitar o server no seu pc)
+- CSS
+ - Aplica propriedades/estilo nos elementos
+ - Cor, fonte, tamanho
+ - Tabela de propriedade e valor
+
+Exemplo: HTML
+```html
+<html>
+  <head>
+    <title>Simple html</title>
+  </head>
+  <body>
+    <h1>This webpage</h1>
+  </body>
+</html>
+```
+
+Exemplo: HTML + CSS
+```html
+<html>
+  <head>
+    <title>Body bgcolor Attribute example</title>
+  </head>
+  <body bgcolor="#afafaf">
+    <h1>This webpage has colored background.</h1>
+  </body>
+</html>
+```
+
+Com HTML, podemos fazer várias coisas, foi inovador, foi inventado em 1989 e a última atualização HTML 5 em 2009. (E dizem que dev precisa se atualizar todo dia)
+
+
+- Javascript
+ - NÃO é Java!
+ - É uma linguagem de programação
+ - Deixa dinamico
+
+
+
 
 
 
