@@ -26,7 +26,7 @@ Se você...
   - O desenvolvedor, precisa entender como funciona o computador e a internet
   
   
-## Qual o resultado esperado se tu assistir todo esse vídeo
+## Qual o resultado esperado ao final desse material
  - Tenha uma caminho claro do que estudar até saber criar um software e disponibilizar ele na net
  - Vai ver na prática tudo que precisa pra colocar um software no ar/na internet
 	
@@ -41,13 +41,7 @@ Tecnologia é ciência, o foco é PC, software.
 
 Não precisa dominar tudo pra conseguir criar coisas na internet. <br />
 Não é em 1 semana ou 1 mês que tu vai dominar tudo. <br />
-Você pode criar um site em 2 dias e disponizalo na internet, mas entender o processo inteiro e dominar com confiança, leva mais de 6 meses estudando 2 horas por dia. E tá tudo bem.
+Você pode criar um site em 2 horas e disponizalo na internet, mas entender o processo inteiro e dominar com confiança, leva mais de 12 meses estudando 2 horas por dia. E tá tudo bem. <br />
+Você terá que criar e disponibilizar na internet muitos sites até ter confiança e "decorar" tudo, e tá tudo bem.
 
 
-
-
-
-
-
-
-  
