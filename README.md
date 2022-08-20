@@ -80,3 +80,40 @@ Por exemplo: se você procurar na lista telefônica página por página, vai lev
 
 
 # Fundamentos da internet 
+
+O que é a Internet? É uma rede de redes.
+
+Tem alguns conceitos que é importante saber
+- TCP/IP: é uma Convenção/protocolo: como um computador encontra outro na rede. 
+ - Ele lida com o endereço, nome, e pacote de informações trafegadas pela rede
+ - Exemplo: Cartas. Pra enviar uma carta precisa de nome, endereço, origem e destino, só que na internet como é muita informação trafegada muito rápida, as vezes não cabe numa carta só, então a informação tem que ir em 4 cartas ou caso a informação se perca no meio do caminho, o protocol TCP resolve
+
+- DNS(lista telefonica): Um computador tem o seu IP, porém nós nos comunicamos pelo nome de um site.
+- PC passa a informação(binário) através de cabo ou wireless. Curiosidade: fibra ótica passa informação como se fosse código mors.
+- HTTP: Hyper Text Transfer protocol. É texto/binário que passa de um lado pra outro. mas ele tem um padrão.
+  - Cabeçalho. (tipo da request/response, etc..)
+  - Corpo
+  - Método http 
+  - Exemplo: http request é o que vai dentro da carta. Como se tu tivesse que passar o "idioma" do texto da carta, o que tu quer, se vai esperar uma resposta de volta ou se só está "enviando" informações, etc... TCP/IP é a parte de fora do envolope e Http a parte de dentro.
+- HTTP: pq é importante? backend lida bastante com http, pq é basicamente através dele que passamos informações para o frontend
+ - Example: http request GET pcdovitor.com/fotodonaruto.jpg. Retorna http status 200 e a cópia de uma foto do naruto do meu PC
+- Browser: lida/monta/faz a http request pra nós e interpreta o html para transformar nas coisas que vemos num "site"
+ - F12 numa página, aba "network" > recarrega a página. Verá as request http que o browser faz "por baixo dos panos"
+- Qual a diferença entre  
+ - Internet 
+ - Browser
+ - Search engine(google)
+ - Sites
+ - Metafora: imagina que seu carro é o computador
+  - Internet: é o mundo, tudo que se conecta 
+  - Browser: são as estradas, permitem que chegamos de um lugar ao outro
+  - Search engine: é o GPS do seu carro. Ele pesquisa de forma ultra eficiente todas as possíveis rotas
+  - Sites: são as casas
+- Curl: fazendo request http sem o browser
+ - Http POST
+
+
+# Frontend
+
+
+
