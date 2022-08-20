@@ -165,4 +165,33 @@ Pra que quero deixar minha página HTML dinâmica? <br />
 - Aplicar lógica na interface(se uma pessoa tiver online, um botão fique verde)
 - Etc...
 
+Exemplo criando um element via javascript caso aperte um botão
+```html
+<html>
+  <head>
+    <script>
+	    
+      function criaElementoViaJs(){
+        document.createElement("button")
+        const novaDiv = document.createElement("novaDiv");
+        novaDiv.textContent = "criado com JSS!!!!"
+        const divAtual = document.getElementById("div1");
+        document.body.insertBefore(novaDiv, divAtual);
+      }
+	    
+      </script>
+    <title>Body bgcolor Attribute example</title>
+  </head>
+    
+  <body bgcolor="#afafaf">
+    <h1>This webpage has colored background</h1>
+    
+    <button style="width: 100px; height: 100px;"
+            onClick="criaElementoViaJs()">
+      Botao
+      </button>
+    <div id="div1">
+  </body> 
+</html>
 
+```
