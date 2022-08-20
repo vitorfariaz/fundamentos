@@ -116,10 +116,10 @@ Tem alguns conceitos que é importante saber
 # Frontend
 
 - HTML
- - Não é uma linguagem de programação!
- - É uma estrutura de dados
+  - Não é uma linguagem de programação!
+  - É uma estrutura de dados
 ![image](https://user-images.githubusercontent.com/40611760/185725617-650e16e7-489a-40ba-8f36-2e0968d255bf.png)
- - Quem "entrega" o HTML é um server. Seu computador pode ser um fácilmente. (Várias IDE's disponibilizam um botão para vc habilitar o server no seu pc)
+  - Quem "entrega" o HTML é um server. Seu computador pode ser um fácilmente. (Várias IDE's disponibilizam um botão para vc habilitar o server no seu pc)
 - CSS
   - Aplica propriedades/estilo nos elementos
   - Cor, fonte, tamanho
