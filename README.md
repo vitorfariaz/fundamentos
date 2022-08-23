@@ -88,8 +88,8 @@ Por exemplo: se você procurar na lista telefônica página por página, vai lev
 [Aqui](https://github.com/vitorfariaz/guia-web-developer/blob/main/public/estagio-estudos.md) tem um material com tudo que podemos fazer com algoritmos
 
 <br />
-https://portugol-webstudio.cubos.io/ide
-
+- https://portugol-webstudio.cubos.io/ide
+- https://dgadelha.github.io/tcc-webstudio/
 PRÁTICA:
 ```
 Algoritmo pra calcular o imposto de renda
