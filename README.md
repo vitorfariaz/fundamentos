@@ -162,8 +162,6 @@ programa {
 
 ```
 
-
-
 # Fundamentos da internet 
 
 O que é a Internet? É uma rede de redes.
@@ -197,6 +195,12 @@ Tem alguns conceitos que é importante saber
 - Curl: fazendo request http sem o browser
  - Http POST
 
+PRÁTICA:
+Retorna valores das açoes na bolsa.(Não oficial)
+
+- Busca cotações histórico por id: GET https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes/02  
+- Busca id das empresas: GET: https://api-cotacao-b3.labdo.it/api/empresa
+- Busca cotações do mesmo ativo, para hoje: GET: https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes
 
 # Frontend
 
