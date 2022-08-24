@@ -73,6 +73,23 @@ Com binário ele consegue representar números, cor, som, letras, etc... <br />
 - Cores: RGB
 - Etc..
 
+Binário é a "linguagem de máquina" pois lida diretamente com as peças físicas do computador. <br />
+Nós não precisamos saber disso, pois nós programamos mais "alto nível". A linguagem que usamos para programar 
+sabe como traduzir o nosso código "alto nível" em linguagem de máquina. <br />
+
+Exemplo: imagine que você tem o bloco alto nível de código abaixo
+```
+real valor1 = 100
+real valor2 = 200
+real resultado = valor1 * valor2
+escreva(resultado)
+```
+Esse bloco só está criando 3 variáveis e fazendo uma multiplicação. <br />
+Isso é o que chamamos de código alto nível pq não precisamos nos preocupar em como o computador(parte física) está guardando esses valores
+ na memória, pois isso é trabalho da própria linguagem fazer em tempo de execução ou compilação.
+
+Compilação: é quando a linguagem transforma o seu código alto nível em código baixo nível(que será executado pela sua máquina/pc) <br />
+
 Que tipo de problemas um computador pode resolver? <br />
 Coisas que exigem grande quantidade de cálculos <br />
 Exemplo: imagina que tu tem que procurar um número numa lista telefônica com 1 milhão de valores. <br />
