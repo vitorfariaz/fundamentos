@@ -143,6 +143,23 @@ programa {
 	}
 		
 }
+
+
+programa {
+    inclua biblioteca Matematica 
+    
+	funcao inicio() {
+
+        inteiro contador = 0
+        enquanto (contador < 100){
+          escreva("\nContando: ", contador)
+          
+          contador++;
+        }
+	}
+		
+}
+
 ```
 
 
