@@ -201,9 +201,8 @@ Retorna valores das açoes na bolsa.(Não oficial)
 - Busca cotações histórico por id: GET https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes/02  
 - Busca id das empresas: GET: https://api-cotacao-b3.labdo.it/api/empresa
 - Busca cotações do mesmo ativo, para hoje: GET: https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes
-- curl GET https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes/02
+- `curl https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes/02`
 - Pegar o html retorno e criar um arquivo `curl GET http://www.google.com/`
-
 
 # Frontend
 
