@@ -96,15 +96,12 @@ Algoritmo pra calcular o imposto de renda
 Usuário digita o salário, e o sistema calcula qual deve ser os descontos de: imposto de renda, INSS
 
 ```
-
 programa {
     inclua biblioteca Matematica 
-    inclua biblioteca Texto --> t 
     
 	funcao inicio() {
 
 		real salario = 0
-		real inss = 0
 		real impostoRenda = 0
 		real baseSalario1 = 1903.98
 		real baseSalario2 = 2826.65
@@ -118,51 +115,34 @@ programa {
 		real parcelaDeducao2 = 354.80
 		real parcelaDeducao3 = 636.13
 		real parcelaDeducao4 = 869.36
-        real aliquotaInss1 = 7.5
-		real aliquotaInss2 = 9
-		real aliquotaInss3 = 12
-		real aliquotaInss4 = 14
-        real baseSalarioFgts1 = 1212.00
-		real baseSalarioFgts2 = 2427.35
-		real baseSalarioFgts3 = 3641.03
-		real baseSalarioFgts4 = 7087.22
 
 		escreva("Digite seu salario: ")
 		leia(salario)
 
 		se (salario <= baseSalario1){
-		    inss = 0
 		    impostoRenda = 0
 		    
 		} senao se(salario > baseSalario1 e salario <= baseSalario2 ){
-		    inss = 
 		    impostoRenda = (salario * (aliquota1/100)) - parcelaDeducao1
 		    
 		} senao se (salario > baseSalario2 e salario <= baseSalario3 ){
-		    inss = 0
 		    impostoRenda = (salario * (aliquota2/100)) - parcelaDeducao2
 		    
 		} senao se(salario > baseSalario3 e salario <= baseSalario4){
-		    inss = 0
 		    impostoRenda = (salario * (aliquota3/100)) - parcelaDeducao3
 		    
 		} senao se(salario > baseSalario4){
-		    inss = 0
 		    impostoRenda = (salario * (aliquota4/100)) - parcelaDeducao4
 		}
-
-        real salarioLimpo = salario - inss - impostoRenda
-	
+        
+                real salarioLimpo = salario - impostoRenda
 		escreva("\nSeu salario é: R$", salario)
 		escreva("\nDescontos")
 		escreva("\nImposto de renda: R$", Matematica.arredondar(impostoRenda, 2))
-		escreva("\nINSS: R$", Matematica.arredondar(inss,2))
-		escreva("\nSalário limpo: R$", salarioLimpo)
-		
+		escreva("\nSalário limpo: R$",  Matematica.arredondar(salarioLimpo, 2)
 	}
-	
+		
 }
-
 ```
 
 
