@@ -162,6 +162,8 @@ programa {
 
 ```
 
+[Curso de fundamentos da computação](https://github.com/vitorfariaz/guia-web-developer) 
+
 # Fundamentos da internet 
 
 O que é a Internet? É uma rede de redes.
@@ -203,6 +205,20 @@ Retorna valores das açoes na bolsa.(Não oficial)
 - Busca cotações do mesmo ativo, para hoje: GET: https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes
 - `curl https://api-cotacao-b3.labdo.it/api/empresa/5/cotacoes/02`
 - Pegar o html retorno e criar um arquivo `curl GET http://www.google.com/`
+
+
+### Resumo até aqui
+
+- Computador só entende binário
+- Na rede é passado código binário mas tem um protocolo pra definir como vai ser o padrão desse código: TCP/IP
+- DNS traduz a url para o IP do computador na rede
+- Quando acessamos algum site nosso navegador está fazendo uma request http para um servidor, passando pelo DNS
+- Navegador sabe interpretar o código dentro do arquivo html que vem da resposta e apresenta o site da forma que vemos
+
+
+![image](https://user-images.githubusercontent.com/40611760/186297628-6293d73b-aa70-4458-a9f9-b3354bc770a8.png)
+
+[Curso de fundamentos da computação](https://github.com/vitorfariaz/guia-web-developer) 
 
 # Frontend
 
