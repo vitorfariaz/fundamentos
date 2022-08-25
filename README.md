@@ -291,30 +291,111 @@ Pra que quero deixar minha página HTML dinâmica? <br />
 Exemplo: HTML + CSS + javascript
 ```html
 <html>
-  <head>
-    <script>
-	    
-      function criaElementoViaJs(){
-        document.createElement("button")
-        const novaDiv = document.createElement("novaDiv");
-        novaDiv.textContent = "criado com JSS!!!!"
-        const divAtual = document.getElementById("div1");
-        document.body.insertBefore(novaDiv, divAtual);
+
+<head>
+  <title>Body bgcolor Attribute example</title>
+</head>
+<script>
+
+  function criaElemento(content) {
+    let novaDiv = document.createElement("div"); //button, 
+    novaDiv.textContent = content
+
+    let div1 = document.getElementById("div1");
+    document.body.insertBefore(novaDiv, div1);
+
+  }
+
+  function criaElementoViaJs() {
+
+    let contador = 0;
+
+    while (contador < 100) {
+      criaElemento("Contador: " + contador);
+      contador++;
+    }
+  }
+
+  function getDatatual() {
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0');
+    var yyyy = today.getFullYear();
+    today = yyyy + mm + dd
+    return parseInt(today, 10);
+  }
+
+  function buscaIdEmpresa(empresas, codigoAcao) {
+
+    for (var i = 0; i < empresas.length; i++) {
+      if (empresas[i].cd_acao_rdz.toLowerCase() == codigoAcao.toLowerCase()) {
+        console.log("ACHOU O ID DA AÇÃO: " + empresas[i].id)
+        return empresas[i].id
       }
-	    
-      </script>
-    <title>Body bgcolor Attribute example</title>
-  </head>
-    
-  <body bgcolor="#afafaf">
-    <h1>This webpage has colored background</h1>
-    
-    <button style="width: 100px; height: 100px;"
-            onClick="criaElementoViaJs()">
-      Botao
-      </button>
-    <div id="div1">
-  </body> 
+    }
+  }
+
+  function encontrarCotacaoDoDia(cotacoes) {
+
+    for (var i = 0; i < cotacoes.length; i++) {
+
+      if (cotacoes[i].cd_bdi == "02" &&
+          cotacoes[i].dt_pregao == getDatatual()) {
+        console.log("ACHOU A COTAÇÃO DO DIA: " + cotacoes[i].id)
+        return cotacoes[i]
+      }
+    }
+  }
+
+  function pesquisarTodasEmpresas() {
+    let urlTodasEmpresas = "https://api-cotacao-b3.labdo.it/api/empresa";
+    let acao = "petr"
+
+    fetch(urlTodasEmpresas)
+      .then(response => response.json())
+      .then(empresas => {
+
+        console.log("Busca todas empresas response: ", empresas)
+
+        let id = buscaIdEmpresa(empresas, acao)
+        const urlCotacao = `https://api-cotacao-b3.labdo.it/api/empresa/${id}/cotacoes`;
+
+        console.log(urlCotacao)
+
+        return fetch(urlCotacao);
+      })
+      .then(response => response.json())
+      .then(cotacoes => {
+        console.log(cotacoes)
+
+        let cotacaoDia = encontrarCotacaoDoDia(cotacoes)
+
+        criaElemento("Código ação: " + cotacaoDia.cd_acao);
+        criaElemento("Valor ação: R$" + cotacaoDia.vl_fechamento);
+
+      })
+      .catch(function () {
+        criaElemento("Deu ruim na busca de todas empresas!")
+      });
+  }
+
+
+</script>
+
+<body bgcolor="#afafaf">
+  <h1>This webpage has colored background</h1>
+
+  <button style="width: 100px; height: 100px;" onClick="criaElementoViaJs()">
+    Botao
+  </button>
+
+  <button id="botaoCotacao" style="width: 100px; height: 100px;" onClick="pesquisarTodasEmpresas()">
+    BuscaAcao
+  </button>
+
+  <div id="div1">
+</body>
+
 </html>
 
 ```
