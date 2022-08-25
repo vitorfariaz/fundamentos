@@ -275,7 +275,6 @@ Exemplo: HTML + CSS
 
 Com HTML, podemos fazer várias coisas, foi inovador, foi inventado em 1989 e a última atualização HTML 5 em 2009. (E dizem que dev precisa se atualizar todo dia)
 
-
 - Javascript
  - NÃO é Java!
  - É uma linguagem de programação
@@ -289,7 +288,7 @@ Pra que quero deixar minha página HTML dinâmica? <br />
 - Aplicar lógica na interface(se uma pessoa tiver online, um botão fique verde)
 - Etc...
 
-Exemplo criando um element via javascript caso aperte um botão
+Exemplo: HTML + CSS + javascript
 ```html
 <html>
   <head>
