@@ -232,8 +232,8 @@ Retorna valores das açoes na bolsa.(Não oficial)
 - Quando acessamos algum site nosso navegador está fazendo uma request http para um servidor, passando pelo DNS
 - Navegador sabe interpretar o código dentro do arquivo html que vem da resposta e apresenta o site da forma que vemos
 
-
-![image](https://user-images.githubusercontent.com/40611760/186297628-6293d73b-aa70-4458-a9f9-b3354bc770a8.png)
+![image](https://user-images.githubusercontent.com/40611760/186545862-82d140ea-74d4-4278-929a-1e88b4e8e546.png)
+<br />
 
 [Curso de fundamentos da computação](https://github.com/vitorfariaz/guia-web-developer) 
 
