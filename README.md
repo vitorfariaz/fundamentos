@@ -103,8 +103,9 @@ Assim como na vida real, na computação também tem formas mais eficientes de r
 Por exemplo: se você procurar na lista telefônica página por página, vai levar muito até achar, mas se você vai direto na letra que está procurando, vai ser mais rápido. <br />
 
 [Aqui](https://github.com/vitorfariaz/guia-web-developer/blob/main/public/estagio-estudos.md) tem um material com tudo que podemos fazer com algoritmos
-
 <br />
+
+IDE's online:
 - https://portugol-webstudio.cubos.io/ide
 - https://dgadelha.github.io/tcc-webstudio/
 
@@ -182,7 +183,6 @@ programa {
 [Curso de fundamentos da computação](https://github.com/vitorfariaz/guia-web-developer) 
 
 # Fundamentos da internet 
-
 O que é a Internet? É uma rede de redes.
 
 Tem alguns conceitos que é importante saber
