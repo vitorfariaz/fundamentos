@@ -15,15 +15,15 @@ Se você...
 - Quer entender na prática o que o dev frontend e o backend fazem e o que precisam saber
 - Sem ter esse conteúdo base, você não será é um profissional completo e nem vai ir muito longe na carreira
 - Se você tá aprendendo HTML e 
-	- Não sabe quem transforma o arquivo html no que vemos quando acessamos um site
-	- Não sabe como isso chega no dispositivo das pessoas
-        - Não sabe onde fica hospedado esse arquivo
+  - Não sabe quem transforma o arquivo html no que vemos quando acessamos um site
+  - Não sabe como isso chega no dispositivo das pessoas
+  - Não sabe onde fica hospedado esse arquivo
 
- Se você vai aprender a construir coisas na internet, precisa entender como ela funciona antes.
-	- Um encanador precisa entender como os canos funcionam e como chega a água na casa das pessoas
-	- O eletricista, precisa entender como a eletricidade funciona e como chega na casa das pessoas
-	- O carteiro, precisa entender de onde vem, onde deve pegar e entregar as cartas
-  - O desenvolvedor, precisa entender como funciona o computador e a internet
+Se você vai aprender a construir coisas na internet, precisa entender como ela funciona antes.
+- Um encanador precisa entender como os canos funcionam e como chega a água na casa das pessoas
+- O eletricista, precisa entender como a eletricidade funciona e como chega na casa das pessoas
+- O carteiro, precisa entender de onde vem, onde deve pegar e entregar as cartas
+- O desenvolvedor, precisa entender como funciona o computador e a internet
   
   
 ## Qual o resultado esperado ao final desse material
