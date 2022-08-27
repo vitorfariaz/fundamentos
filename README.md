@@ -31,24 +31,15 @@ Se você vai aprender a construir coisas na internet, precisa entender como ela 
  - Caminho claro do que estudar até saber criar um software e disponibilizar ele na net
 
 Obs.: É isso que importa para você conseguir um emprego e não diplomas ou outras coisas...
-
 <br />
 
-- Não precisa ser um gênio pra conseguir criar software. 1/3 das pessoas que ingressam na faculdade não tem familiaridade com isso
-- Menos de 1/3 da galera na área não fez faculdade, mas eles
- - Estudadaram muito
- - Sabem o que estão fazendo
- - Sabem como funciona a internet
- - Sabem como um computador funciona
-
-Obs.: O básico dessas coisas! 
-
-<br /> <br />
-
 Desmistificando algumas coisas
+- Você **vai** achar que é burro durante os 6 primeiros meses.
+- Você **vai** achar que precisa de **algo que você não tem** para aprender.
+- Foi assim com tudo mundo, você não é especial.
 - Não precisa dominar tudo pra conseguir criar software e disponibilizalo na internet. <br />
 - Não é em 1 semana ou 1 mês que tu vai dominar tudo. <br />
-- Você pode criar um site em 2 horas e disponizalo na internet. Mas... Entender o processo inteiro e dominar com confiança, **leva mais de 12 meses estudando 2 horas por dia!** E tá tudo bem. <br />
+- Você pode criar um site em 2 dias e disponizalo na internet. Mas... Entender o processo inteiro e dominar com confiança, **leva mais de 12 meses estudando 2 horas por dia!** E tá tudo bem. <br />
 - Você terá que criar e disponibilizar na internet algumas dezenas de sites até ter confiança e "decorar" o necessário.
 
 # Fundamentos da computação 
