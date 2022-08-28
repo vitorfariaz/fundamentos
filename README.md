@@ -3,7 +3,7 @@
 Esse material tem intuito de explicar de forma prática e objetiva o que uma pessoa precisa aprender para se tornar desenvolvedora de software, seja frontend ou backend.
 
 
-## Qual problema eu quero resolver?
+## Qual problema esse material pretende resolver?
   
 Se você...
 - Não sabe por onde começar e pra onde ir
