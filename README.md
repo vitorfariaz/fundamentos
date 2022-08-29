@@ -27,7 +27,7 @@ Se você vai aprender a construir coisas na internet, precisa entender como ela 
 - O carteiro, precisa entender de onde vem, onde pegar e onde entregar as cartas
 - O desenvolvedor, precisa entender como funciona o computador e a internet
   
-Recomendação: opcional
+Recomendação:
 [3 técnicas para aprender a programar](https://www.youtube.com/watch?v=ZtMzB5CoekE&ab_channel=FilipeDeschamps)
   
 ## Qual o resultado esperado ao final desse material
